@@ -1,11 +1,13 @@
 # text-analyzer
 ### Python script that outputs stats on input text e.g. number of sentences, etc. 
 
-Usage: python text_analyzer.py \<input-file> \<output-file>
+**Usage**: python text_analyzer.py \<input-file> \<output-file>
 
-The program accepts as input a plain text document and extracts some properties of the content.  
+The program accepts as input a plain text document and extracts some properties of the content. 
 
-Output:
+*Note: Sample data provided to use with program.* 
+
+**Output**:
 
 Number of paragraphs.
 
