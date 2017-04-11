@@ -52,7 +52,7 @@ if __name__ == "__main__":
             if word_list[index + 1] == 't':
                 word = word[:-1]  # Hacks off the 'n'; doesn't work for "won't"
         except IndexError:
-            break
+            pass
         if is_Contraction(word):
             prevWord = word_list[index - 1]
             word = parse_contraction(prevWord, word)
